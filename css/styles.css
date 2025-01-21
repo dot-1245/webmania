@@ -1,5 +1,37 @@
-nav {
-    background-color: #000000;
+
+.nav-menu {
+    background-color: #000000; /* 背景色を黒に */
     padding: 10px;
-    text-align: center;
+    text-align: center; /* 文字を中央に配置 */
+}
+
+.nav-menu a {
+    color: white; /* リンク文字の色を白に */
+    text-decoration: none; /* 下線を消す */
+    padding: 10px 20px; /* リンクにパディングを追加 */
+    font-size: 1.2rem; /* フォントサイズを少し大きく */
+}
+
+.nav-menu a:hover {
+    background-color: #444444; /* ホバー時に背景色を変更 */
+    border-radius: 100px; /* 角を丸くする */
+}
+
+.meigen-username {
+    size: 2px;
+    background-color: rgb(164, 164, 164); /* 背景色を灰色に */
+    padding: 5px; /* パディングを追加 */
+    margin: 2px 0; /* 上下に余白を追加 */
+    border-radius: 100px; /* 角を丸くする */
+}
+
+ul {
+    list-style-type: none; /* すべてのリストのマーカーを消す */
+    padding-left: 0; /* 左側の余白を消す */
+}
+.meigen {
+    background-color: rgb(244, 244, 244); /* 背景色を灰色に */
+    padding: 10px; /* パディングを追加 */
+    margin: 20px 0; /* 上下に余白を追加 */
+    border-radius: 100px; /* 角を丸くする */
 }
